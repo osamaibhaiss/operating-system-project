@@ -1,4 +1,4 @@
-Process Scheduling Simulation
+# Process Scheduling Simulation
 📜 Description
 This Python program simulates three different process scheduling algorithms:
 
@@ -13,7 +13,7 @@ Turnaround Time
 Waiting Time
 It also computes the CPU Utilization and generates a Gantt Chart for visualizing the scheduling sequence.
 
-🛠 Features
+# 🛠 Features
 Simulates Process Scheduling Algorithms:
 First Come First Serve (FCFS)
 Shortest Remaining Time (SRT)
@@ -25,7 +25,7 @@ CPU Utilization as a percentage
 Metrics:
 Total Turnaround Time
 Total Waiting Time
-📥 Installation
+# 📥 Installation
 Prerequisites:
 Python 3.x or higher
 Steps:
@@ -36,7 +36,7 @@ Copy
 git clone <repository-url>
 Ensure you have the correct permissions to read the input file.
 
-📂 Input Format
+# 📂 Input Format
 The program reads process data from a file. Each line in the file should contain:
 
 Process ID (integer)
@@ -50,7 +50,8 @@ Copy
 2,1,3
 3,2,8
 4,3,6
-🚀 How to Use
+
+# 🚀 How to Use
 Set the file_path variable in the script to the location of your input file (e.g., input.txt).
 
 Run the script:
@@ -63,7 +64,7 @@ The program will run the simulation for each scheduling algorithm and output:
 FCFS: First Come First Serve
 SRT: Shortest Remaining Time
 RR: Round Robin (with quantum = 3)
-💻 Example Output
+# 💻 Example Output
 FCFS Results:
 sql
 Copy
@@ -81,19 +82,19 @@ Metrics:
 Total Turnaround Time: 44
 Total Waiting Time: 22
 CPU Utilization: 100%
-🔄 Scheduling Algorithms
+# 🔄 Scheduling Algorithms
 1. First Come First Serve (FCFS):
 Processes are executed in the order they arrive, i.e., first process to arrive is executed first.
 2. Shortest Remaining Time (SRT):
 The process with the shortest remaining burst time is selected next.
 3. Round Robin (RR):
 Each process gets a fixed time slice (quantum). If it does not finish within that time slice, it goes back to the ready queue to wait for the next turn.
-📊 Metrics Calculated
+# 📊 Metrics Calculated
 Turnaround Time:
 Time from when the process arrives to when it finishes.
 Waiting Time:
 Time the process spends waiting in the queue before being executed.
 CPU Utilization:
 Percentage of time the CPU is actively processing.
-📝 License
+# 📝 License
 This project is licensed under the MIT License - see the LICENSE file for details.
