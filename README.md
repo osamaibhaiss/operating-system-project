@@ -1,5 +1,5 @@
 # Process Scheduling Simulation
-📜 Description
+# 📜 Description
 This Python program simulates three different process scheduling algorithms:
 
 First Come First Serve (FCFS)
